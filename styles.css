@@ -1,0 +1,109 @@
+  @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600&family=Golos+Text&family=Inconsolata:wght@200;300;400;500;600&family=Josefin+Sans:ital,wght@0,100;0,200;1,300;1,400&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*MENU*/
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+
+}
+/* header {
+    display: flex;
+    flex-direction: row;
+} */
+.menu li {
+    list-style-type: none;
+    padding: 20px 15px;
+}
+.menu li a {
+    color: aliceblue;
+    font-size: 1.5em ;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.seccionUno h1 {
+    text-align: center;
+    display: flex;
+    align-items: end;
+    font-size: 2em;
+    font-weight: 500;
+
+}
+
+ .seccionUno {
+    height: 400px;
+    width: 100%;
+    background-image: url("/assets/portada\ header.jpeg") ;
+}
+
+article .about h3 p   {
+    height: 300px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-size: 15px;
+}
+
+.carousel-inner {
+    height: 500px;
+}
+
+/*aside*/
+aside {
+    width: 400px;
+    margin-top: 40px;
+    border: solid 1px #a13;
+    box-shadow:2px 3px 5px #a13;
+}
+
+aside h3 {
+    text-transform: uppercase;
+    color: #a13;
+    font-weight: 200;
+}
+
+/*form*/
+form {
+    margin-bottom: 30px;
+}
+
+form input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    font-size: 15px;
+}
+
+/*footer*/
+
+.caja {
+    display: flex;
+    flex-direction: row;
+}
+
+.cajaContenidoUno {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20 px;
+}
+
+.btn {
+    background-color: #a13;
+}
+
+.horarios p span,
+.contact-adress p span {
+    display: block;
+}
