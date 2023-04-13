@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
+    
 }
 
 /*MENU*/
@@ -32,52 +32,76 @@
     text-transform: uppercase;
     text-decoration: none;
 }
-.seccionUno h1 {
-    text-align: center;
-    display: flex;
-    align-items: end;
-    font-size: 2em;
-    font-weight: 500;
+/*MAIN- LA PRIMERA SECCION*/
 
-}
-
- .seccionUno {
+.seccionUno {
     height: 400px;
     width: 100%;
-    background-image: url("/assets/portada\ header.jpeg") ;
+    background-image: url("./assets/portada\ header.jpeg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-article .about h3 p   {
-    height: 300px;
-    text-align: center;
-    width: 60%;
-    margin: auto;
-    font-size: 15px;
+.seccionDos {
+    display: flex;
+    align-items:stretch;
+    margin: 70px;
+    padding: 50px;
+    font-size: 20px;   
 }
 
 .carousel-inner {
     height: 500px;
 }
+.seccionDos h3 {
+    margin: 20px;
+    padding: 10px;
+}
 
-/*aside*/
-aside {
-    width: 400px;
+
+.botonTexto {
+    width: 10%;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+/*contenedor*/
+.contenedor {
+    width: 100%;
     margin-top: 40px;
-    border: solid 1px #a13;
-    box-shadow:2px 3px 5px #a13;
-}
-
-aside h3 {
-    text-transform: uppercase;
-    color: #a13;
-    font-weight: 200;
-}
-
-/*form*/
-form {
     margin-bottom: 30px;
+  
 }
 
+.contenedor h3 {
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+/*  cambie posicion y lo centre*/
+.contenedor .formContacto {
+    width: 50%;
+    padding: 10px;
+    margin-left: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: solid 1px #a13;
+    box-shadow: 2px 3px 5px #a13;
+   
+}
+
+
+form {
+    padding: 10px;
+    display: contents;
+    
+ 
+}
+/*  cambie posicion y lo centre*/
 form input {
     width: 50%;
     padding: 10px;
@@ -86,24 +110,67 @@ form input {
     font-size: 15px;
 }
 
+
 /*footer*/
 
 .caja {
+    width: 80%;
+    padding: 30px;
     display: flex;
     flex-direction: row;
+    margin-top: 30px; 
+   text-align: center;
+   margin-left: 100px;
+}
+.cajaUno {
+    padding: 10px;
+    width: 80%;
+    font-size: 15px;
 }
 
-.cajaContenidoUno {
-    display: flex;
-    flex-direction: column;
-    margin: 30px 20 px;
-}
+.horarios 
+    {
+        padding: 10px;
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .direccion{
+        padding: 10px;
+        width: 80%;
+        font-size: 15px;
+        
+    }
+
+button {
+    padding: 20px;
+    width: 50%;
+    margin-left: 60px;
+ 
+ 
+ }
 
 .btn {
     background-color: #a13;
+    font-size: 15px;
+   
+}
+
+.form-group input {
+    font-size: 10px;
+}
+
+.cajaUno 
+.horarios
+.direccion {
+          
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 30px 20px;
 }
 
 .horarios p span,
-.contact-adress p span {
+.direccion p span {
     display: block;
 }

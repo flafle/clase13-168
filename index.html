@@ -54,104 +54,153 @@
     </section>
 
     <!--QUIENES SOMOS-->
-     <section class="about">
-        <article>
-            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non dicta, omnis sequi pariatur assumenda ut ipsa repudiandae optio distinctio rerum quo, quos earum. Velit praesentium sit placeat repudiandae quaerat facere!</p>
-        </article>
-     </section>
-     
-     <!--INCIO SLIDER DE IMAGENES-->
-     <div id="carouselExampleFade" class="carousel slide carousel-fade">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/assets/habiracion1 main.jpeg" class="d-block w-100" alt="hotel">
-          </div>
-          <div class="carousel-item">
-            <img src="/assets/pexels-photo-6620948.jpeg" class="d-block w-100" alt="hotel">
-          </div>
-          <div class="carousel-item">
-            <img src="/assets/23.jpeg" class="d-block w-100" alt="hotel">
-          </div>
+    <section class="seccionDos">
+      <article>
+          <h3>Lorem ipsum, este subtitulo seria un titulo de presentacion de nos</h3>
+
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime placeat itaque sint est, vero accusamus repellat odio ipsa tempora vel deleniti, unde tempore commodi qui? Ut illum vel sed quidem.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur molestias tempore, odio ut ab eius laboriosam ducimus obcaecati doloribus, voluptates voluptate. Sit illum doloribus reiciendis corrupti debitis nulla quae nesciunt?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nulla at, possimus veniam consequuntur fugit, quasi vero mollitia nihil, eius error quidem culpa quam? Cumque nostrum itaque doloremque aspernatur enim!
+
+
+            <span class="ocultar" id="ocultarTexto" >
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolores praesentium incidunt. Praesentium doloribus, quisquam libero id dicta voluptates minus atque nostrum pariatur odio dolorum quaerat eligendi. Illum, placeat quibusdam.</p>
+            </span>
+
+            <!-- <button class="botonTexto" id="ocultarTextoBoton">Leer mas</button> -->
+          </p>
+      </article>
+  </section>
+
+  <!--Fotos slide-->
+  <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/assets/habiracion1 main.jpeg" class="d-block w-100" alt="Foto del hotel">
         </div>
-        <!--botonos de transciones-->
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Siguiente</span>
-        </button>
+        <div class="carousel-item">
+          <img src="/assets/23.jpeg" class="d-block w-100" alt="Foto del hotel">
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/pexels-photo-6620948.jpeg" class="d-block w-100" alt="Foto del hotel">
+        </div>
       </div>
-       <!--botonos de transciones-->
+<!--botones del slider-->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
 
-     <!--fin de SLIDER DE IMAGENES-->
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+<!--botones del slider-->
+<!--Fotos slide-->
 
-     <!--FORMULARIO LOGIN-->
-     <div class="contenedor">
-        <aside>
-            <div class="formContacto">
-                <h3> Ingrese | Registrese </h3>
-                 <form >
-                    <input type="text" id="nombre" placeholder="Escriba su Usuario">
-                    <input type="password" id="pass" placeholder="Escriba su contraseña">
+<!--FORMULARIO DE LOGIN-->
+<div class="contenedor">
 
-                    <input type="submit" value="Ingresar">
-    <!--FORMULARIO LOGIN-->
+  <!--primer formulario-->
+  <div class="formContacto">
+    <h3> Ingresá | Registrate </h3>
+      <div>
+          <form id="formulario">
+              <input type="name" id="user" placeholder="Escribe tu nombre usuario">
+              <input type="password" id="pass" placeholder="Escribe tu contraseña">
+
+              <input type="submit" id="submit" value="Ingresar">
+          </form>
+      </div>
+   </div>
 
 
-                </form>
-            </div>
-        </aside>
-     </div>
+      <div class="galeriaDos">
+        <!--Fotos slide-->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+           <div class="carousel-inner">
+             <div class="carousel-item active">
+               <img src="/assets/jardin1.jpeg" class="d-block w-100" alt="jardin">
+             </div>
+             <div class="carousel-item">
+               <img src="/assets/jardin2.jpeg" class="d-block w-100" alt="jardin">
+             </div>
+             <div class="carousel-item">
+               <img src="/assets/jardin3.jpeg" class="d-block w-100" alt="jardin">
+             </div>
+           </div>
 
+          <!--botones del slider-->
+           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Previous</span>
+           </button>
+           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Next</span>
+           </button>
+         </div>
+
+    </div>     
+        <!--botones del slider-->
+         
+       <!--Fotos slide-->
+     <!--FIN DE MAIN-->
    </main>
- <!--FIN DE MAIN-->
+
 
  
 
      <!--INICIO DE FOOTER-->
      <footer>
       <div class="container">
-
         <div class="caja">
-            <div class="cajaContenidoUno">
-                <h3>Deje su mensaje</h3>
-                <form >
-                    <div class="form-group">
-                        <p>Por favor deje su nuemro de telefono y nos contactaremos</p>
-                        <input type="name" class="form-control" placeholder="Escriba su nombre completo">
-                    </div>
-                    <div>
-                        <input type="number" class="form-control" placeholder="Escriba su numero de telefono">
-                    </div>
+ <!--formulario de reserva-->
+            <div class="cajaUno">
+                <h3>Haga su reserva: </h3>
+                 <form class="media-centered">
 
-                    <button type="submit" class="btn btn-success">Enviar</button>
+                 <div class="form-group">
+                    <p>Por favor dejanos tu numero para poder contactarte</p>
 
-                </form>
-            </div>
+                    <input type="name" class="form-group"
+                    placeholder="Escribí tu nombre">
+                </div>
+
+                <div>
+                    <input type="number" class="form-group" placeholder="Escribí tu numero de telefono">
+                </div>
+                
+                <div>
+                   <button type="submit" class="btn btn-success btn-sm">Enviar</button>
+                </div>
+            </form>
         </div>
+        
 
+<!--aca van los horarios-->
         <div class="horarios">
-            <h3>Nuestros horarios de atención:</h3>
-             <p>
-                <span>Lunes a Viernes: 08:00- 20:00</span>
-                <span>Sábados y Domingos: 10:00- 18:00</span>
+            <h3>Mira nuestros horarios de atención</h3>
+            <p>
+                <span>De lunes a Viernes : 08:00 - 21:00hs</span>
+                <span>Sabados y Domingos: 19:00 - 23:00hs</span>
             </p>
         </div>
 
-        <div class="contact-adress">
-            <h3>Encontranos en...</h3>
-          <p>
-            <span>+54 011 384756</span>
-            <span>Av UnLugar</span>
-            <span>Buenos Aires</span>
-          </p>
+        <div class="direccion">
+            <h3>BUscanos en ...s</h3>
+            <div>
+                <span>Av UnaAvenida 321</span>
+                <span>Buenos Aires, Argentina</span>
+
+            </div>
         </div>
+    </div>
 
-
-      </div>
+</div>
+</footer>
+<!--FIN DE FOOTER-->
     </footer>
  <!--FIN DE FOOTER-->
 </body>
